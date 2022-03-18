@@ -22,23 +22,16 @@ function myFunction() {
     }
     request.send()
 }
+let qoute = '"'
 let colors = ['#254D4C', '#121C2B', '#005B60', '#5E5E5E', '#4E4E4E', '#4B4A54', '#412728', '#254D4C']
-let clr = colors[Math.floor(Math.random() * colors.length)]
+let selectedColor = colors[Math.floor(Math.random() * colors.length)]
 let ad = 'advice  #  '
 buttun.addEventListener("click", () => {
-    let clr = colors[Math.floor(Math.random() * colors.length)]
+    let selectedColor = colors[Math.floor(Math.random() * colors.length)]
 
     myFunction()
-
     heading.innerText = ad + adviceId
-    para.textContent = adviceContent
-        // advicebgrnd.style.backgroundPosition = "100%"
-    advicebgrnd.style.backgroundColor = clr
-        // advicebgrnd.style.backdropFilter = 'blur(50px)'
-        //backdrop-filter: blur(5px);
-        // advicebgrnd.style.backgroundSize = "300%"
-
-
-
+    para.textContent = qoute + adviceContent + qoute
+    advicebgrnd.style.backgroundColor = selectedColor
 
 })

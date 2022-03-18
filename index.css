@@ -8,20 +8,18 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
-    background-image: url(assets/dark-forest.gif);
+    background-image: url(images/Darkforest.gif);
+    /* background-color: hsl(218, 23%, 16%); */
 }
 
 .advice {
-    width: 45%;
-    height: 60%;
+    width: 38%;
+    height: 55%;
     position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: hsl(217, 19%, 24%);
-    -webkit-backdrop-filter: blur(200px);
-    backdrop-filter: blur(200px);
-    box-shadow: 0px 0px 20px .1px hsl(219, 18%, 38%);
     border-radius: 1rem;
     text-align: center;
 }
@@ -30,33 +28,9 @@ body {
     color: hsl(150, 100%, 66%);
     text-align: center;
     padding-top: 3rem;
-    font-size: 28px;
     font-family: 'Manrope', sans-serif;
-    transition: all .5s;
-}
-
-.btn {
-    display: block;
-    position: relative;
-    height: 1.8rem;
-    width: 1.8rem;
-    left: 49.3%;
-    top: 17.2%;
-    background-image: url(images/icon-dice.svg);
-    z-index: 2000;
-    cursor: pointer;
-}
-
-.btn__background {
-    position: relative;
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-    left: 48%;
-    top: 10%;
-    background-color: hsl(150, 100%, 66%);
-    z-index: 1000;
-    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 .advice__content {
@@ -68,9 +42,32 @@ body {
     padding-top: .5rem;
     font-family: 'Manrope', sans-serif;
     transition: all .5s;
-    /* color: hsl(217, 19%, 38%);
-    color: hsl(217, 19%, 24%);
-    color: hsl(218, 23%, 16%);
-    color: hsl(193, 38%, 86%);
-    color: hsl(150, 100%, 66%); */
+    padding-bottom: 6rem;
+}
+
+.divider {
+    margin-bottom: -.5rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.btn__background {
+    position: relative;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    left: 47.5%;
+    top: 19%;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    border: none;
+}
+
+.btn__background:hover,
+.btn:hover {
+    box-shadow: 0px 0px 20px 2px hsla(150, 100%, 66%, 0.794);
+}
+
+.btn__background:focus {
+    outline: none;
 }
