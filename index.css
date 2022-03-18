@@ -63,6 +63,16 @@ body {
     border: none;
 }
 
+@media only screen and (max-width: 600px) {
+    .advice {
+        width: 80%;
+        height: 50%;
+    }
+    .btn__background {
+        left: 43%;
+    }
+}
+
 .btn__background:hover,
 .btn:hover {
     box-shadow: 0px 0px 20px 2px hsla(150, 100%, 66%, 0.794);

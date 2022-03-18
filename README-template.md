@@ -9,21 +9,20 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-- [Author](#author)
+  - [Author](#author)
 
 
 
 
 ### The challenge
-Sunnyside agency landing page solution
+advice-generator-app
 
 
 
 ### Screenshot
 
-![desktop view Sunnyside agency landing page coding challenge](./projectImages/desktop.png)
-![phone view Sunnyside agency landing page coding challenge](./projectImages/phone.png)
-![phone view menu Sunnyside agency landing page coding challenge](./projectImages/phoneMenu.png)
+![desktop view of advice-generator-app](images/desktop.png))
+![phone view of advice-generator-app](images/phone.png))
 
 ### Links
 

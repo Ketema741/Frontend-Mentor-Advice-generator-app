@@ -6,14 +6,11 @@ let heading = document.getElementById("advice__id")
 let adviceContent
 let adviceId
 
-
-
 let request = new XMLHttpRequest()
 
 function myFunction() {
 
     request.open('GET', 'https://api.adviceslip.com/advice', true)
-
     request.onload = function() {
         let data = JSON.parse(request.responseText)
         console.log(data.slip.advice)
@@ -22,6 +19,7 @@ function myFunction() {
     }
     request.send()
 }
+
 let qoute = '"'
 let colors = ['#254D4C', '#121C2B', '#005B60', '#5E5E5E', '#4E4E4E', '#4B4A54', '#412728', '#254D4C']
 let selectedColor = colors[Math.floor(Math.random() * colors.length)]
