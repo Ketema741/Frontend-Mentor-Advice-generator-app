@@ -66,10 +66,14 @@ body {
 @media only screen and (max-width: 600px) {
     .advice {
         width: 80%;
-        height: 50%;
+        height: 70%;
+        position: relative;
+        left: 50%;
+        top: 40%;
     }
     .btn__background {
         left: 43%;
+        top: -10%;
     }
 }
 
