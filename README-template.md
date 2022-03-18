@@ -26,8 +26,8 @@ advice-generator-app
 
 ### Links
 
-- Solution URL: https://github.com/Ketema741/FrontEndProject.git
-- Live Site URL: https://ketema741.github.io/FrontEndProject/
+- Solution URL: https://github.com/Ketema741/Frontend-Mentor-Advice-generator-app.git
+- Live Site URL:  https://ketema741.github.io/Frontend-Mentor-Advice-generator-app/
 
 ### Built with
 - HTML5 
